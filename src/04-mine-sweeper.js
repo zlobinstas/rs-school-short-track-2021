@@ -23,6 +23,40 @@
  */
 function minesweeper(/* matrix */) {
   throw new Error('Not implemented');
+  // let i = 0;
+  // let j = 0;
+  // let result = matrix.slice();
+  // for (i, j; i < matrix.length; i++) {
+  //   while (j < matrix[i].length) {
+  //     if (matrix[i][j] === true) {
+  //       if (result[i - 1][j - 1] !== undefined) {
+  //         result[i - 1][j - 1] += 1;
+  //       }
+  //       if (result[i - 1][j] !== undefined) {
+  //         result[i - 1][j] += 1;
+  //       }
+  //       if (result[i - 1][j + 1] !== undefined) {
+  //         result[i - 1][j + 1] += 1;
+  //       }
+  //       if (result[i][j - 1] !== undefined) {
+  //         result[i][j - 1] += 1;
+  //       }
+  //       if (result[i][j + 1] !== undefined) {
+  //         result[i][j + 1] += 1;
+  //       }
+  //       if (result[i + 1][j - 1] !== undefined) {
+  //         result[i + 1][j - 1] += 1;
+  //       }
+  //       if (result[i + 1][j] !== undefined) {
+  //         result[i + 1][j] += 1;
+  //       }
+  //       if (result[i + 1][j + 1] !== undefined) {
+  //         result[i + 1][j + 1] += 1;
+  //       }
+  //       j++;
+  //     }
+  //   }
+  // }
 }
 
 module.exports = minesweeper;

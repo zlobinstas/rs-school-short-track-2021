@@ -22,6 +22,28 @@
  */
 function getDNSStats(/* domains */) {
   throw new Error('Not implemented');
+  /* const result = [];
+  // eslint-disable-next-line array-callback-return
+  domains.map((item) => {
+    // eslint-disable-next-line no-shadow,array-callback-return
+    item.split('.').map((item) => {
+      result.push(item);
+    });
+  });
+  result.sort();
+  let count = 1;
+  const obj = {};
+  for (let i = 0; i < result.length; i++) {
+    if (result[i] === result[i + 1]) {
+      count++;
+      i--;
+      result.shift();
+    } else {
+      obj[result[i]] = count;
+      count = 1;
+    }
+  }
+  return obj; */
 }
 
 module.exports = getDNSStats;
